@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+	font-size: 16px;
+}
+.clearfix:after{
+	content: " ";
+	display: block;
+	clear: both;
+	height: 0;
+	overflow: hidden;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.w1200{
+	width: 1200px;
+	margin: 0 auto;
+}
+.head{
+	height: 118px;
+}
+.head ul{
+	margin-top: 14px;
+}
+.head .left img{
+	vertical-align: top;
+}
+.head ul li{
+	float: left;
+	margin-left: 58px;
+	font-size: 16px;
+	line-height: 32px;
+	color: #333;
+}
+.head ul li a{
+	display: inline-block;
+	height: 32px;
+}
+.head ul li:hover{
+	border-bottom: 2px solid #333;
+}
+.head>.right input{
+	border: 0;
+	outline: none;
+	font-size: 18px;
+	height: 24px;
+	margin-left: 10px;
+	width: 180px;
+}
+.head>.right .inputdiv{
+	display: inline-block;
+	border: 1px solid;
+	border-radius: 18px;
+	width: 220px;
+	vertical-align: middle;
+	color: #323232;
+	margin-right: 40px;
+}
+.head>.right .inputdiv img{
+	cursor: pointer;
+	margin-right: 10px;
+	margin-top: 5px;
+	
+}
+.head>.right>div{
+	font-size: 18px;
+	text-align: right;
+	line-height: 50px;
+}
+.footer{
+	font-size: 12px;
+	text-align: center;
+	height: 92px;
+	line-height: 92px;
+	background: #666;
+	color:white ;
+}
